@@ -9,8 +9,11 @@ export function Footer() {
             Million<span className="text-gold">·</span>Tales
           </h3>
           <p className="mt-4 text-sm text-muted-foreground max-w-sm leading-relaxed">
-            A wedding photography studio crafting timeless love stories
-            across India — from intimate ceremonies to grand destination weddings.
+            No templates. No forced moments.
+            Every frame is intentional. Every story is personal.
+            Whether it’s an intimate outdoor shoot or a destination celebration,
+            we create visual narratives that feel timeless — not staged.
+
           </p>
           <p className="mt-4 text-xs uppercase tracking-luxe text-muted-foreground">
             Serving all over India · Based in Banglore

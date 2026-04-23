@@ -23,25 +23,22 @@ function About() {
           <div className="lg:col-span-5">
             <p className="text-xs uppercase tracking-luxe text-gold mb-6">— The studio</p>
             <h1 className="font-display text-5xl sm:text-7xl leading-[0.95]">
-              We chase <em className="italic text-gradient-gold not-italic">light</em>, not poses.
+              We chase <em className="italic text-gradient-gold not-italic">Moments</em>, not Events.
             </h1>
           </div>
           <div className="lg:col-span-7 space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              Million Tales began in 2013 with a simple belief: a wedding is not a
-              checklist of moments to capture, but a single, breathing story. Today
-              we are a small studio of photographers and filmmakers serving couples
-              across India.
+              Million Tales began its journey in 2020 with a simple belief: a wedding is a single,
+              breathing story. Today,
+              we are filmmakers serving couples
+              globally.
             </p>
             <p>
-              From a sun-drenched temple wedding in Chennai to a fog-soft
-              Himalayan elopement, we approach every day the same way — quietly,
-              attentively, with reverence for what is unfolding in front of us.
+              We don't just document weddings. We capture how it feels like.The quiet in-between moments.
+              The way two people exist when everything else fades. 
             </p>
             <p>
-              We believe in honest light, honest emotion, and prints you'll still
-              hand to your grandchildren. We do not stage tears. We do not stage
-              joy. We wait for them, and we are usually rewarded.
+             Because years later, that’s what truly matters.
             </p>
           </div>
         </div>
@@ -56,10 +53,10 @@ function About() {
             <p className="text-xs uppercase tracking-luxe text-gold mb-6">— Our principles</p>
             <ul className="space-y-8">
               {[
-                { t: "Story over staging", d: "We don't direct your day. We document it." },
-                { t: "Light over filters", d: "Editing is restraint. The frame is sacred." },
-                { t: "Slow over fast", d: "Galleries delivered in 6–8 weeks, not 6 days." },
-                { t: "Print over pixels", d: "Every wedding ends with something you can hold." },
+                { t: "Emotion over everything", d: "We prioritise what you feel, not just what you see." },
+                { t: "Cinematic, not staged", d: "We create frames that feel like films, not forced poses." },
+                { t: "Built for years, not trends", d: "Our work is designed to feel as powerful decades from now as it does today." },
+                { t: "Presence before perfection", d: "The best moments aren’t directed. They’re lived — we make space for that." },
               ].map((p) => (
                 <li key={p.t}>
                   <h3 className="font-display text-2xl text-gold">{p.t}</h3>
@@ -75,10 +72,10 @@ function About() {
         <div className="max-w-3xl mx-auto px-6">
           <p className="text-xs uppercase tracking-luxe text-gold mb-6">— Working with us</p>
           <h2 className="font-display text-4xl sm:text-6xl">
-            We take a few weddings <em className="text-gradient-gold">a year.</em>
+            We take on a limited number of weddings<em className="text-gradient-gold"> each season</em>
           </h2>
           <p className="mt-6 text-muted-foreground">
-            So that we can give each one everything. If our work resonates, we'd
+            ensuring every story gets the attention it deserves. If our work resonates, we'd
             love to hear about your day.
           </p>
           <Link

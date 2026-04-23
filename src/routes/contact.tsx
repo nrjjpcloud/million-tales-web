@@ -24,9 +24,8 @@ function Contact() {
         <img src={g1} alt="Bride portrait" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-gradient-to-r from-background/30 to-background/60" />
         <div className="absolute bottom-12 left-12 right-12">
-          <p className="text-xs uppercase tracking-luxe text-gold mb-4">— Studio</p>
-          <h2 className="font-display text-4xl text-foreground">Mumbai · serving all of India</h2>
-          <p className="mt-4 text-sm text-muted-foreground">hello@milliontales.in · +91 99999 99999</p>
+
+          
         </div>
       </div>
 
@@ -38,14 +37,14 @@ function Contact() {
             Let's begin a <em className="italic text-gradient-gold not-italic">tale.</em>
           </h1>
           <p className="mt-6 text-muted-foreground">
-            We respond to every enquiry personally within 48 hours.
+            We respond to every enquiry personally within 6 hours(Business hours).
           </p>
 
           {sent ? (
             <div className="mt-12 border border-gold/40 bg-gold/5 p-8">
               <h2 className="font-display text-3xl text-gold">Received with love.</h2>
               <p className="mt-3 text-sm text-muted-foreground">
-                Thank you. We'll be in touch within two days.
+                Thank you. We'll be in touch within 6 hours (Business hours).
               </p>
             </div>
           ) : (
@@ -63,7 +62,7 @@ function Contact() {
               <Field label="Email" name="email" type="email" required />
               <Field label="Phone" name="phone" type="tel" />
               <Field label="Wedding date" name="date" type="date" />
-              <Field label="Location / venue" name="location" placeholder="e.g. Udaipur, Goa, Mumbai" />
+              <Field label="Location / venue" name="location" placeholder="e.g. Banglore, Hyderabad, Mumbai" />
               <div>
                 <label className="text-xs uppercase tracking-luxe text-muted-foreground">Tell us about your story</label>
                 <textarea
@@ -79,7 +78,9 @@ function Contact() {
                 Send enquiry →
               </button>
             </form>
+
           )}
+          <p className="mt-4 text-sm text-muted-foreground">capture@milliontales.in · +91 99999 99999</p>
         </div>
       </div>
     </div>

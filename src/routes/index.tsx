@@ -140,11 +140,13 @@ function Index() {
       <section className="relative py-32 lg:py-44 border-t border-border">
         <div className="max-w-6xl mx-auto px-6 lg:px-10 grid lg:grid-cols-12 gap-12">
           <div className="lg:col-span-4">
-            <p className="text-xs uppercase tracking-luxe text-gold">— The Studio</p>
+            <p className="text-xs uppercase tracking-luxe text-gold">— Who We Are</p>
           </div>
           <div className="lg:col-span-8">
             <p className="font-display text-3xl sm:text-5xl leading-tight">
-              We are a small studio of photographers and filmmakers who believe a
+              Since 2020, we’ve worked with couples across different cultures, locations, and styles —
+              adapting to each story while maintaining a consistent standard of quality and storytelling.
+              work is designed not just for today, but for how it will feel years from now. For us,
               wedding is not an <em className="text-gold not-italic font-serif-display">event</em> — it
               is a <em className="text-gold not-italic font-serif-display">story</em> told in glances,
               tears, and laughter that deserves to outlive us.
@@ -159,7 +161,7 @@ function Index() {
                 <p className="mt-2 uppercase tracking-luxe text-xs">Cities covered</p>
               </div>
               <div>
-                <p className="text-foreground font-display text-3xl">11</p>
+                <p className="text-foreground font-display text-3xl">6</p>
                 <p className="mt-2 uppercase tracking-luxe text-xs">Years of love</p>
               </div>
             </div>
